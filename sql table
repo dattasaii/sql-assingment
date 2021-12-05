@@ -68,8 +68,8 @@ values  (2006, 'Clemens', 'London', 1001);
 insert into  Customers(Cnum, Cname, City, Snum)
 values (2008, 'Cisneros', 'Sanjose', 1007);
 
-insert into Customers(Snum, Cname, City, Cnum)
-values (1004, 'Pereira', 'Rome', 2007);
+insert into Customers(Cnum, Cname, City, Snum)
+values (2007, 'Pereira', 'Rome', 1004);
 
 -- Inserting Orders:
 insert into Orders
